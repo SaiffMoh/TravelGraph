@@ -1,6 +1,6 @@
 from langgraph.graph import StateGraph, END
 from state_definitions import FlightAssistantState
-from graph_nodes import (
+from utils.graph_nodes import (
     collect_user_input_node,
     fetch_amadeus_token_node,
     call_flight_offers_api_node,
